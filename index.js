@@ -8,6 +8,9 @@ switch(args.option.toLowerCase()){
 case "deploy":
     cmd.createFunction();
     break;
+case "getfunction":
+    cmd.getFunction();
+    break;    
 case "createuser":
     cmd.createUser();
     break;
